@@ -1,7 +1,7 @@
 # speedfix
 一个由ts构建的简单js函数库，目的是简化js数据操作。
 
-![Static Badge](https://img.shields.io/badge/npm-1.0.0-green?link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Fspeedfix) ![Static Badge](https://img.shields.io/badge/github-zhangjinzhepro-blue?link=https%3A%2F%2Fgithub.com%2Fzhangjinzhepro%2Fspeedfix)
+![Static Badge](https://img.shields.io/badge/npm-1.0.6-green?link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Fspeedfix) ![Static Badge](https://img.shields.io/badge/github-zhangjinzhepro-blue?link=https%3A%2F%2Fgithub.com%2Fzhangjinzhepro%2Fspeedfix)
 
 
 ## 使用npm安装

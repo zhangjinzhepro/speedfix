@@ -1,10 +1,10 @@
 {
   "name": "speedfix",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "一个简单js工具库",
   "main": "./bin/index.js",
   "types": "./bin/index.d.ts",
-  "repository": "https://github.com/zhangjinzhepro/wanado",
+  "repository": "https://github.com/zhangjinzhepro/speedfix",
   "scripts": {
     "dev": "npm run build && npm link --force",
     "build": "webpack",

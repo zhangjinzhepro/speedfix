@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    index: './src/index.js',
+    index: './src/index.ts',
   },
   mode: 'production',
   output: {
@@ -10,17 +10,15 @@ module.exports = {
     filename: '[name].js',
     path: path.resolve('bin'),
   },
+  resolve: {
+    extensions: ['.ts', '.js']
+  },
   module: {
     rules: [
       {
-        test: /\.js$/,
-        include: [
-          path.resolve('src'),
-        ],
-        loader: 'babel-loader',
-        options: {
-          presets: ['@babel/preset-env'],
-        },
+        test: /\.ts$/,
+        loader: 'ts-loader',
+        exclude: [/node_modules/, /\.test\.ts/]
       },
     ],
   },

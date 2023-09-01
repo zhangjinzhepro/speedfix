@@ -31,8 +31,7 @@ import { toArray } from "./sources/toArray";
 import { toDate } from "./sources/toDate";
 import { toThousands } from "./sources/toThousands";
 
-
-export default {
+const speedfix = {
   checkType,
   downloadBlob,
   getCookie,
@@ -66,3 +65,5 @@ export default {
   toDate,
   toThousands
 };
+
+export default speedfix

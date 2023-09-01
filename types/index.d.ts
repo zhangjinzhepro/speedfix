@@ -1,4 +1,4 @@
-declare const _default: {
+declare const speedfix: {
     checkType: (value: any) => string;
     downloadBlob: (data: BlobPart, fileName: string, type: string) => void;
     getCookie: (key: string) => string;
@@ -39,4 +39,4 @@ declare const _default: {
     toDate: (target: any, format?: string | undefined) => any;
     toThousands: (target: string | number) => string;
 };
-export default _default;
+export default speedfix;

@@ -10,7 +10,7 @@
     "build": "webpack",
     "test": "jest"
   },
-  "author": "zhangjinzhe@88.com",
+  "author": "zhangjinzhepro@qq.com",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.17.5",

@@ -14,21 +14,13 @@
 ### 数据判断
 - [checkType](#checktype)
 - [isString](#isstring)  
-- [isNotString](#isnotstring)
 - [isNumber](#isnumber)
-- [isNotNumber](#isnotnumber)
 - [isBoolean](#isboolean)
-- [isNotBoolean](#isnotboolean)
 - [isArray](#isarray)
-- [isNotArray](#isnotarray)
 - [isFunction](#isfunction)
-- [isNotFunction](#isnotfunction)
 - [isObject](#isobject)
-- [isNotObject](#isnotobject)
 - [isUndefined](#isundefinedundefined)
-- [isNotUndefined](#isnotundefinedundefined)
 - [isNull](#isnullnull)
-- [isNotNull](#isnotnullnull)
 - [isEmptyValue](#isemptyvalue)
 - [isEmptyObject](#isemptyobject)
 - [isEmptyList](#isemptylist)
@@ -69,84 +61,44 @@
 wanado.checkType(value)
 ```
 
-- #### `isString`判断是否为字符串类型(正向)
+- #### `isString`判断是否为字符串类型
 ```js
 wanado.isString(value)
 ```
 
-- #### `isNotString`判断是否为字符串类型（反向）
-```js
-wanado.isNotString(value)
-```
-
-- #### `isNumber`判断是否为数字类型(正向)
+- #### `isNumber`判断是否为数字类型
 ```js
 wanado.isNumber(value)
 ```
 
-- #### `isNotNumber`判断是否为数字类型(反向)
-```js
-wanado.isNotNumber(value)
-```
-
-- #### `isBoolean`判断是否为布尔类型(正向)
+- #### `isBoolean`判断是否为布尔类型
 ```js
 wanado.isBoolean(value)
 ```
 
-- #### `isNotBoolean`判断是否为布尔类型(反向)
-```js
-wanado.isNotBoolean(value)
-```
-
-- #### `isArray`判断是否为数组类型(正向)
+- #### `isArray`判断是否为数组类型
 ```js
 wanado.isArray(value)
 ```
 
-- #### `isNotArray`判断是否为数组类型(反向)
-```js
-wanado.isNotArray(value)
-```
-
-- #### `isFunction`判断是否为函数类型(正向)
+- #### `isFunction`判断是否为函数类型
 ```js
 wanado.isFunction(value)
 ```
 
-- #### `isNotFunction`判断是否为函数类型(反向)
-```js
-wanado.isNotFunction(value)
-```
-
-- #### `isObject`判断是否为对象类型(正向)
+- #### `isObject`判断是否为对象类型
 ```js
 wanado.isObject(value)
 ```
 
-- #### `isNotObject`判断是否为对象类型(反向)
-```js
-wanado.isNotObject(value)
-```
-
-- #### `isUndefined`判断是否为undefined(正向)
+- #### `isUndefined`判断是否为undefined
 ```js
 wanado.isUndefined(value)
 ```
 
-- #### `isNotUndefined`判断是否为undefined(反向)
-```js
-wanado.isNotUndefined(value)
-```
-
-- #### `isNull`判断是否为null(正向)
+- #### `isNull`判断是否为null
 ```js
 wanado.isNull(value)
-```
-
-- #### `isNotNull`判断是否为null(反向)
-```js
-wanado.isNotNull(value)
 ```
 
 - #### `isEmptyValue`判断是否为空值

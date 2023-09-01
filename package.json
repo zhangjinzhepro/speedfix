@@ -1,6 +1,6 @@
 {
   "name": "speedfix",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "一个简单js工具库",
   "main": "bin/index.js",
   "typings": "types/index.d.ts",

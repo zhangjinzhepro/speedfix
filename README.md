@@ -10,8 +10,8 @@
 ### 引用
 `import speedfix from 'speedfix'`
 
-### 按需加载,需安装`eslint-plugin-import`
-`import { isString } from 'speedfix/src/sources/isString'`
+### 按需加载
+`import { isString } from 'speedfix/src/isString'`
 
 ## 索引
 
